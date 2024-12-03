@@ -11,12 +11,12 @@ class Day03 {
     @Test
     fun shouldSolveDay01PartOne() {
         val result = dayThreeChallenge.partOne()
-        assertEquals(result, 2)
+        assertEquals(result, 161)
     }
 
     @Test
     fun shouldSolveDay01PartTwo() {
         val result = dayThreeChallenge.partTwo()
-        assertEquals(result, 4)
+        assertEquals(result, 48)
     }
 }
